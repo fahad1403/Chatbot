@@ -1,0 +1,50 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Welcome here,How can I help you?", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you soon, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+          {"tag": "who",
+         "patterns": ["Who are you?","What can you do?"],
+         "responses": ["I am a Chatbot powered by RGNIIPM, I can help you out with your queries"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "timimg",
+         "patterns": ["What time can I take training?", "What are the training hours?" ],
+         "responses": ["Our hours are 10.00 AM to 5.30 PM","Training Timing: - 10.00 AM to 5.30 PM"]
+        },
+        {"tag": "location",
+         "patterns": ["What is your location?", "Where are you located?", "What is your address?", "How can I reach Rgniipm?" ],
+         "responses": ["Our Address is: 03, Hislop College Rd, Civil Lines, Nagpur, Maharashtra 440001"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Do you accept cash only?","What is the payment method?" ],
+         "responses": ["We accept Credit, Debit card and E-wallet payments", "We accept most major credit cards"]
+        },
+        {"tag": "trainings",
+         "patterns": ["What are available trainings?", "What type of trainings does your organization provide?"],
+         "responses": ["RGNIIPM conducts Training, Awareness programs relating to Intellectual Property Rights i.e. Patents, Designs, Trademarks, Geographical Indications & Copyrights"]
+        },
+        {"tag": "needforawareness",
+         "patterns": ["Need for Training, Awareness Programs?","Why should I take training?" ],
+         "responses": ["To provide in house training to IPO officials,To upgrade IP skills of Academic faculties and researchers by organizing IP training,To aware Govt. officials like Police, custom officials etc. about IP enforcement related issues"]
+        },
+        {"tag": "whocanjoin",
+         "patterns": ["Who can join Training Program?","Can anyone join the training program?","Can I join the training program"],
+         "responses": ["There is no age limit to join training program. Professors, Lecturers, Research scholars, Trainers etc. can join the training,OR Any other interested person."],
+         "context_filter": "food"
+        },
+        {"tag": "faculties",
+             "patterns": ["Who will conduct the trainings?", "Faculties for training program?"],
+             "responses": ["The faculties for training course will be the experts from Patent office, Trademark Registry, Geographical Indications Registry, Copyright offices."]
+            }
+    
+   ]
+}
